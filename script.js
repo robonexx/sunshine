@@ -2,8 +2,8 @@
 // moving eyes after mouse movement
 
 document.querySelector('body').addEventListener('mousemove', eyeball);
-let faceBorder = document.querySelector('.face-bg');
-const face = document.querySelector('.face');
+var faceBorder = document.querySelector('.face-bg');
+var face = document.querySelector('.face');
 
 function eyeball() {
     var eye = document.querySelectorAll('.eye');
@@ -20,7 +20,7 @@ function eyeball() {
 };
 
 face.addEventListener('click', () => {
-    faceBorder.style.opacity = 1;
+    faceBorder.style.border = "20px solid rgb(206, 115, 30)";
     console.log('clicked face')
 })
 

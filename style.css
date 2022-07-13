@@ -91,7 +91,7 @@ body {
     position: absolute;
     box-sizing: content-box;
     border-radius: 50%;
-    border: solid rgb(182, 150, 45) 20px;
+    border: solid rgba(211, 177, 28, 0.966) 20px;
     transition: all 0.3s ease-out;
     opacity: 1;
     z-index: 1;
